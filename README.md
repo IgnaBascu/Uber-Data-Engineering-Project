@@ -36,7 +36,7 @@ Código transformaciones: https://github.com/IgnaBascu/Uber-Data-Engineering-Pro
 <img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/vm_ejemplo.png?raw=true" width="800px">
 </p>
 
-*  **BigQuery**: Servicio de Google para análisis y almacen de datos mediante el uso de queries SQL
+*  **BigQuery**: Servicio de Google para análisis y almacén de datos mediante el uso de queries SQL
 
 <p align="center" >
 <img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/query3.png?raw=true" width="800px">
@@ -46,8 +46,10 @@ Código transformaciones: https://github.com/IgnaBascu/Uber-Data-Engineering-Pro
 
 *  **Locker**: Servicio de Google para visualización de datos tipo dashboard interactivos.
 
+Enlace: https://lookerstudio.google.com/reporting/a69fd664-7025-4bc6-8df0-35ff28f72157
+
 <p align="center" >
-<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/query3.png?raw=true" width="800px">
+<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/Uber_Dashboard.png" width="800px">
 </p>
 
 ## Dataset usado
@@ -59,6 +61,11 @@ Es una muestra de 100K datos sobre viajes en Nueva York de la "*NYC Taxi and Lim
 
 ## Modelado de datos
 
-Al intentar recrear un modelo real de negocios para DataWarehouse, se realizó un modelado tipo estrella (Star Model) con una tabla de hechos (fact_table) y varias tablas de dimensiones rodeandola. Se hizo con la herramienta draw.io
+Al intentar recrear un modelo real de negocios para DataWarehouse, se realizó un modelado tipo estrella (Star Model) con una tabla de hechos (fact_table) y varias tablas de dimensiones rodeándola. Se hizo con la herramienta draw.io
 
- *Modelo puede mejorar, solo es con proposito de aprendizaje*
+<p align="center" >
+<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/modelado%20dimensional.png" width="800px">
+</p>
+
+
+ *Modelo puede mejorar, solo es con propósito de aprendizaje*
