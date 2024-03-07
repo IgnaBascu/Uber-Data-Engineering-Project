@@ -18,17 +18,37 @@ La arquitectura de la solución se basa en las tecnologías de Google Cloud Plat
 
 *  **Cloud Storage**: Almacenamiento de datos no estructurados, se ocupó para guardar el dataset a trabajar.
 
+<p align="center" >
+<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/bucket_ejemplo.png?raw=true" width="800px">
+</p>
 
 *  **MAGE AI**: Framework open-source ETL para construir, correr y manejar pipelines de data para su integración y transformación.
 
-Código de transformaciones acá:
+<p align="center" >
+<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/mage_ejemplo.png?raw=true" width="800px">
+</p>
+
+Código transformaciones: https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/Uber_Data_Analysis.ipynb
 
 *  **Compute Engine**: Instancia de Máquina virtual donde se instaló Mage
 
+<p align="center" >
+<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/vm_ejemplo.png?raw=true" width="800px">
+</p>
 
 *  **BigQuery**: Servicio de Google para análisis y almacen de datos mediante el uso de queries SQL
 
+<p align="center" >
+<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/query3.png?raw=true" width="800px">
+</p>
+
+*Solo un ejemplo*
+
 *  **Locker**: Servicio de Google para visualización de datos tipo dashboard interactivos.
+
+<p align="center" >
+<img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/query3.png?raw=true" width="800px">
+</p>
 
 ## Dataset usado
 
