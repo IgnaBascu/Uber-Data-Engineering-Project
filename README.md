@@ -8,8 +8,37 @@ Proyecto de ingeniería de datos ETL, a partir de una muestra de datos de Uber N
 
 ## Setup
 
-La arquitectura de la solución se basa en las tecnologías de Google Cloud Platform (GCP) junto con la herramienta open-source de pipelines Mages, todo esto bajo lenguaje SQL y Python.
+La arquitectura de la solución se basa en las tecnologías de Google Cloud Platform (GCP) junto con la herramienta open-source de pipelines Mage, todo esto bajo lenguaje SQL y Python.
 
 <p align="center">
   <img src="https://github.com/IgnaBascu/Uber-Data-Engineering-Project/blob/main/assets/DiagramaETL.png?raw=true">
 </p>
+
+## Resumen de herramientas
+
+*  **Cloud Storage**: Almacenamiento de datos no estructurados, se ocupó para guardar el dataset a trabajar.
+
+
+*  **MAGE AI**: Framework open-source ETL para construir, correr y manejar pipelines de data para su integración y transformación.
+
+Código de transformaciones acá:
+
+*  **Compute Engine**: Instancia de Máquina virtual donde se instaló Mage
+
+
+*  **BigQuery**: Servicio de Google para análisis y almacen de datos mediante el uso de queries SQL
+
+*  **Locker**: Servicio de Google para visualización de datos tipo dashboard interactivos.
+
+## Dataset usado
+
+Es una muestra de 100K datos sobre viajes en Nueva York de la "*NYC Taxi and Limousine Commission*" que muestra diversas features tales como tarifas, códigos de tarifa, métodos de pago, coordenadas de pickup y dropoff de viajes, etc.
+
+Dataset (Muestra):
+Diccionario de datos:
+
+## Modelado de datos
+
+Al intentar recrear un modelo real de negocios para DataWarehouse, se realizó un modelado tipo estrella (Star Model) con una tabla de hechos (fact_table) y varias tablas de dimensiones rodeandola.
+
+ *Modelo puede mejorar, solo es con proposito de aprendizaje*
