@@ -34,11 +34,11 @@ Código de transformaciones acá:
 
 Es una muestra de 100K datos sobre viajes en Nueva York de la "*NYC Taxi and Limousine Commission*" que muestra diversas features tales como tarifas, códigos de tarifa, métodos de pago, coordenadas de pickup y dropoff de viajes, etc.
 
-Dataset (Muestra):
-Diccionario de datos:
+- Dataset (Muestra): https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
+- Diccionario de datos: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Modelado de datos
 
-Al intentar recrear un modelo real de negocios para DataWarehouse, se realizó un modelado tipo estrella (Star Model) con una tabla de hechos (fact_table) y varias tablas de dimensiones rodeandola.
+Al intentar recrear un modelo real de negocios para DataWarehouse, se realizó un modelado tipo estrella (Star Model) con una tabla de hechos (fact_table) y varias tablas de dimensiones rodeandola. Se hizo con la herramienta draw.io
 
  *Modelo puede mejorar, solo es con proposito de aprendizaje*
